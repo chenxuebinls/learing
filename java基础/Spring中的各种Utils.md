@@ -51,4 +51,15 @@ public void testLoadPropertiesResourceXml() throws Exception {
     assertEquals("中文", ret.getProperty("key2"));
 }
 ```
+
+### org.springframework.util.CollectionUtils
++ 实现对象转集合序列List(arrayToList)
++ 合并数组到集合中（mergeArrayIntoCollection）
++ 合并属性配置文件到Map(mergePropertiesIntoMap) 
++ 集合遍历Iterator集/实例集/是否包含对象（contains）
++ 两集合包含关系校验（containsAny）
++ 获取两集合第一个相当匹配对象（findFirstMatch）
++ 查询集合指定Class类型的对象（findValueOfType） 
++ 判断集合对象不重复校验（hasUniqueObject）等。
+
 参考链接：https://www.jianshu.com/p/52f8b7de1d76
